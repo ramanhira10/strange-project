@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.data-table {
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* for two columns */
+.data-table.two-columns .headings,
+.data-table.two-columns .data-rows .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.data-table.two-columns .headings .first-column,
+.data-table.two-columns .headings .second-column {
+    font-weight: 800;
+}
+
+.data-table.two-columns .headings .first-column,
+.data-table.two-columns .headings .second-column,
+.data-table.two-columns .data-rows .row .first-column,
+.data-table.two-columns .data-rows .row .second-column {
+    text-align: center;
+}
+
+.data-table.two-columns .headings .first-column,
+.data-table.two-columns .data-rows .row .first-column {
+    width: 30%;
+}
+
+.data-table.two-columns .headings .second-column,
+.data-table.two-columns .data-rows .row .second-column {
+    width: 70%;
+}
+
+/* for three columns */
+.data-table.three-columns .headings,
+.data-table.three-columns .data-rows .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.data-table.three-columns .headings .first-column,
+.data-table.three-columns .headings .second-column,
+.data-table.three-columns .headings .third-column {
+    font-weight: 800;
+}
+
+.data-table.three-columns .headings .first-column,
+.data-table.three-columns .headings .second-column,
+.data-table.three-columns .headings .third-column,
+.data-table.three-columns .data-rows .row .first-column,
+.data-table.three-columns .data-rows .row .second-column,
+.data-table.three-columns .data-rows .row .third-column {
+    text-align: center;
+}
+
+.data-table.three-columns .headings .first-column,
+.data-table.three-columns .data-rows .row .first-column {
+    width: 25%;
+}
+
+.data-table.three-columns .headings .second-column,
+.data-table.three-columns .data-rows .row .second-column {
+    width: 25%;
+}
+
+.data-table.three-columns .headings .third-column,
+.data-table.three-columns .data-rows .row .third-column {
+    width: 50%;
+}
+
+/* for four columns */
+.data-table.four-columns .headings,
+.data-table.four-columns .data-rows .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.data-table.four-columns .headings .first-column,
+.data-table.four-columns .headings .second-column,
+.data-table.four-columns .headings .third-column,
+.data-table.four-columns .headings .fourth-column {
+    font-weight: 800;
+}
+
+.data-table.four-columns .headings .first-column,
+.data-table.four-columns .headings .second-column,
+.data-table.four-columns .headings .third-column,
+.data-table.four-columns .headings .fourth-column,
+.data-table.four-columns .data-rows .row .first-column,
+.data-table.four-columns .data-rows .row .second-column,
+.data-table.four-columns .data-rows .row .third-column,
+.data-table.four-columns .data-rows .row .fourth-column {
+    text-align: center;
+}
+
+.data-table.four-columns .headings .first-column,
+.data-table.four-columns .data-rows .row .first-column {
+    width: 16%;
+}
+
+.data-table.four-columns .headings .second-column,
+.data-table.four-columns .data-rows .row .second-column {
+    width: 16%;
+}
+
+.data-table.four-columns .headings .third-column,
+.data-table.four-columns .data-rows .row .third-column {
+    width: 16%;
+}
+
+.data-table.four-columns .headings .fourth-column,
+.data-table.four-columns .data-rows .row .fourth-column {
+    width: 52%;
+}
+
+/* for five columns */
+.data-table.five-columns .headings,
+.data-table.five-columns .data-rows .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.data-table.five-columns .headings .first-column,
+.data-table.five-columns .headings .second-column,
+.data-table.five-columns .headings .third-column,
+.data-table.five-columns .headings .fourth-column,
+.data-table.five-columns .headings .fifth-column {
+    font-weight: 800;
+}
+
+.data-table.five-columns .headings .first-column,
+.data-table.five-columns .headings .second-column,
+.data-table.five-columns .headings .third-column,
+.data-table.five-columns .headings .fourth-column,
+.data-table.five-columns .headings .fifth-column,
+.data-table.five-columns .data-rows .row .first-column,
+.data-table.five-columns .data-rows .row .second-column,
+.data-table.five-columns .data-rows .row .third-column,
+.data-table.five-columns .data-rows .row .fourth-column,
+.data-table.five-columns .data-rows .row .fifth-column {
+    text-align: center;
+}
+
+.data-table.five-columns .headings .first-column,
+.data-table.five-columns .data-rows .row .first-column {
+    width: 12%;
+}
+
+.data-table.five-columns .headings .second-column,
+.data-table.five-columns .data-rows .row .second-column {
+    width: 12%;
+}
+
+.data-table.five-columns .headings .third-column,
+.data-table.five-columns .data-rows .row .third-column {
+    width: 12%;
+}
+
+.data-table.five-columns .headings .fourth-column,
+.data-table.five-columns .data-rows .row .fourth-column {
+    width: 12%;
+}
+
+.data-table.five-columns .headings .fifth-column,
+.data-table.five-columns .data-rows .row .fifth-column {
+    width: 52%;
+}
+
+/* for six columns */
+.data-table.six-columns .headings,
+.data-table.six-columns .data-rows .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.data-table.six-columns .headings .first-column,
+.data-table.six-columns .headings .second-column,
+.data-table.six-columns .headings .third-column,
+.data-table.six-columns .headings .fourth-column,
+.data-table.six-columns .headings .fifth-column,
+.data-table.six-columns .headings .sixth-column {
+    font-weight: 800;
+}
+
+.data-table.six-columns .headings .first-column,
+.data-table.six-columns .headings .second-column,
+.data-table.six-columns .headings .third-column,
+.data-table.six-columns .headings .fourth-column,
+.data-table.six-columns .headings .fifth-column,
+.data-table.six-columns .headings .sixth-column,
+.data-table.six-columns .data-rows .row .first-column,
+.data-table.six-columns .data-rows .row .second-column,
+.data-table.six-columns .data-rows .row .third-column,
+.data-table.six-columns .data-rows .row .fourth-column,
+.data-table.six-columns .data-rows .row .fifth-column,
+.data-table.six-columns .data-rows .row .sixth-column {
+    text-align: center;
+}
+
+.data-table.six-columns .headings .first-column,
+.data-table.six-columns .data-rows .row .first-column {
+    width: 12%;
+}
+
+.data-table.six-columns .headings .second-column,
+.data-table.six-columns .data-rows .row .second-column {
+    width: 12%;
+}
+
+.data-table.six-columns .headings .third-column,
+.data-table.six-columns .data-rows .row .third-column {
+    width: 12%;
+}
+
+.data-table.six-columns .headings .fourth-column,
+.data-table.six-columns .data-rows .row .fourth-column {
+    width: 12%;
+}
+
+.data-table.six-columns .headings .fifth-column,
+.data-table.six-columns .data-rows .row .fifth-column {
+    width: 12%;
+}
+
+.data-table.six-columns .headings .sixth-column,
+.data-table.six-columns .data-rows .row .sixth-column {
+    width: 40%;
+}
